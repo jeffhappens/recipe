@@ -1,15 +1,5 @@
 @extends('layouts.main')
-
 @section('content')
-<!--
-<section class="section">
-	<div class="container">
-		<div class="content">
-			<h1>Recently Added Recipes</h1>
-		</div>
-	</div>
-</section>
--->
 <section class="section">
 	<div class="container">
 		<div class="columns is-multiline">
@@ -29,20 +19,12 @@
 										<small>
 										<a href="/user/{{ $recipe->owner->id }}/recipes">
 											{{ $recipe->owner->display_name }}
-										</a>
-										|
-										{{-- <i class="fa fa-calendar"></i> --}}
-										{{ $recipe->created_at->diffForHumans() }}
+										</a>| {{ $recipe->created_at->diffForHumans() }}
 									</small>
 
 									</p>
 								</div>
 							</div>
-							<!--
-							<div class="content">
-								<p>{{ str_limit($recipe->recipe_description, 100) }}</p>
-							</div>
-							-->
 						</div>
 					</div>					
 				</div>
