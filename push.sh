@@ -1,0 +1,1 @@
+rsync -avz --no-perms --no-owner --no-group --exclude-from 'excludes.txt' . root@162.243.254.18:/var/www/html/
