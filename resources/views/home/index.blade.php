@@ -14,7 +14,7 @@
 	<div class="container">
 		<div class="columns is-multiline">
 			@foreach($recipes as $recipe)
-				<div class="column is-one-third">
+				<div class="column is-one-quarter">
 					<div class="card" data-href="/recipe/{{ $recipe->id }}/{{ $recipe->recipe_slug }}">
 						<div class="card-image">
 							<figure class="image is-square">
@@ -38,9 +38,11 @@
 									</p>
 								</div>
 							</div>
+							<!--
 							<div class="content">
 								<p>{{ str_limit($recipe->recipe_description, 100) }}</p>
 							</div>
+							-->
 						</div>
 					</div>					
 				</div>
