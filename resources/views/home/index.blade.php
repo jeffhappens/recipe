@@ -14,7 +14,7 @@
 						<div class="card-content">
 							<div class="media">
 								<div class="media-content">
-									<p class="title is-4">{{ $recipe->recipe_title }}</p>
+									<p class="title is-5">{{ $recipe->recipe_title }}</p>
 									<p>
 										<small>
 										<a href="/user/{{ $recipe->owner->id }}/recipes">
