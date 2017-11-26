@@ -1,6 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
+<!--
 <section class="section">
 	<div class="container">
 		<div class="content">
@@ -8,7 +9,7 @@
 		</div>
 	</div>
 </section>
-
+-->
 <section class="section">
 	<div class="container">
 		<div class="columns is-multiline">
